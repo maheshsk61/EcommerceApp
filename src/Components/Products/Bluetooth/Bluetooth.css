@@ -1,0 +1,56 @@
+.Bluetooths img {
+    min-width: 500px;
+    max-width: 500px;
+    min-height: auto;
+    max-height: auto;
+    object-fit: cover;
+}
+
+.Bluetooths .Name,
+.Details ul li {
+    width: 600px;
+}
+
+.Bluetooths .Name,
+.Price,
+.Details ul li,
+.AddToCart button {
+    transform: translateX(50px);
+    text-align: justify;
+}
+
+@media only screen and (min-width:1px) and (max-width:576px) {
+    .Bluetooths {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Bluetooths img {
+        min-width: auto;
+        max-width: auto;
+    }
+
+    .Bluetooths .Name,
+    .Details ul li {
+        min-width: 250px;
+        max-width: 250px;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:768px) {
+    .Bluetooths {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Bluetooths img {
+        min-width: auto;
+        max-width: auto;
+    }
+
+    .Bluetooths .Name,
+    .Details ul li {
+        min-width: 500px;
+        max-width: 500px;
+    }
+}

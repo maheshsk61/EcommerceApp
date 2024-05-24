@@ -1,0 +1,38 @@
+.Products{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Products img {
+    min-width: auto;
+    max-width: auto;
+    min-height: 250px;
+    max-height: 250px;
+    object-fit: cover;
+}
+
+.Products img:hover {
+    transition: transform 0.5s;
+    transform: scale(0.9);
+}
+
+@media only screen and (max-width:576px) {
+    .Products {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Products img {
+        min-width: auto;
+        max-width: auto;
+        min-height: auto;
+        max-height: auto;
+        object-fit: cover;
+    }
+
+    .Products img:hover {
+        transition: none;
+        transform: none;
+    }
+}

@@ -1,0 +1,56 @@
+.Tv img {
+    min-width: 500px;
+    max-width: 500px;
+    min-height: auto;
+    max-height: auto;
+    object-fit: cover;
+}
+
+.Tv .Name,
+.Details ul li {
+    width: 600px;
+}
+
+.Tv .Name,
+.Price,
+.Details ul li,
+.AddToCart button {
+    transform: translateX(50px);
+    text-align: justify;
+}
+
+@media only screen and (max-width:576px) {
+    .Tv {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Tv img {
+        min-width: auto;
+        max-width: auto;
+    }
+
+    .Tv .Name,
+    .Details ul li {
+        min-width: 250px;
+        max-width: 250px;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:768px) {
+    .Tv {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Tv img {
+        min-width: auto;
+        max-width: auto;
+    }
+
+    .Tv .Name,
+    .Details ul li {
+        min-width: 500px;
+        max-width: 500px;
+    }
+}

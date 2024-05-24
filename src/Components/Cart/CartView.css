@@ -1,0 +1,6 @@
+.CartProductsDisplay img{
+    min-width: 300px;
+    max-width: 300px;
+    min-height: auto;
+    max-height: auto;
+}
