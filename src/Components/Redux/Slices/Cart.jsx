@@ -11,7 +11,7 @@ const cartSlice = createSlice({
         removeProduct: (state, action) => {
             state.cart = state.cart.filter((product) => {
                 const productToRemove = action.payload
-                return product.m_id !== productToRemove && product.l_id !== productToRemove && product.t_id !== productToRemove && product.w_id !== productToRemove && product.b_id !== productToRemove && product.p_id !== productToRemove
+                return product.m_id !== productToRemove && product.l_id !== productToRemove && product.t_id !== productToRemove && product.w_id !== productToRemove && product.b_id !== productToRemove && product.p_id !== productToRemove && product.f_id !== productToRemove && product.wm_id !== productToRemove && product.e_id !== productToRemove
             })
         }
     }
