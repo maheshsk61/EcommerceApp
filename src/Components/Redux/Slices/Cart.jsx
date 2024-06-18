@@ -9,10 +9,24 @@ const cartSlice = createSlice({
             state.cart.push(action.payload)
         },
         removeProduct: (state, action) => {
-            state.cart = state.cart.filter((product) => {
-                const productToRemove = action.payload
-                return product.m_id !== productToRemove && product.l_id !== productToRemove && product.t_id !== productToRemove && product.w_id !== productToRemove && product.b_id !== productToRemove && product.p_id !== productToRemove && product.f_id !== productToRemove && product.wm_id !== productToRemove && product.e_id !== productToRemove
-            })
+            const productToRemove = action.payload;
+            const indexToRemove = state.cart.findIndex((product) => {
+                return (
+                    product.m_id === productToRemove ||
+                    product.l_id === productToRemove ||
+                    product.t_id === productToRemove ||
+                    product.w_id === productToRemove ||
+                    product.b_id === productToRemove ||
+                    product.p_id === productToRemove ||
+                    product.f_id === productToRemove ||
+                    product.wm_id === productToRemove ||
+                    product.e_id === productToRemove
+                );
+            });
+
+            if (indexToRemove !== -1) {
+                state.cart.splice(indexToRemove, 1);
+            }
         }
     }
 })
