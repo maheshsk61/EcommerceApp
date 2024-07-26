@@ -13,7 +13,7 @@ const WasingMachine = () => {
             <div className="row">
                 {
                     washingMachinesData.map((wm) =>
-                        <div className="col-xs-12" key={wm.id}>
+                        <div className="col-xs-12" key={wm.wm_id}>
                             <div className="WashingMachines d-flex overflow-x-hidden">
                                 <img src={wm.wm_img} alt={wm.wm_img} className="img-fluid" />
                                 <div className="d-flex flex-column">

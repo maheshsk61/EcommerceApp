@@ -13,7 +13,7 @@ const Mobile = () => {
             <div className="row">
                 {
                     mobilesData.map((m) =>
-                        <div className="col-xs-12" key={m.id}>
+                        <div className="col-xs-12" key={m.m_id}>
                             <div className="Mobiles d-flex overflow-x-hidden">
                                 <img src={m.m_img} alt={m.m_img} className="img-fluid" />
                                 <div className="d-flex flex-column">

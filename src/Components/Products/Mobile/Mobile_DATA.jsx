@@ -54,7 +54,7 @@ export var mobilesData = [
     },
     {
         m_id: ++id,
-        m_img: 'https://m.media-amazon.com/images/I/61G7flmHtRL._SL1200_.jpg',
+        m_img: 'https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
         m_name: 'Lava Blaze Curve 5G (Glass Viridian, 8GB LPDDR5 RAM, UFS 3.1 128GB Storage) | 120Hz Curved Amoled Display |2.6GHz Dimensity 7050 6nm Processor |64 MP Primary Sony Sensor',
         m_price: 17999,
         m_details: {

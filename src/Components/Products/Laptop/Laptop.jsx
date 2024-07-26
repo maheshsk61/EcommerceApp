@@ -13,7 +13,7 @@ const Laptop = () => {
             <div className="row">
                 {
                     laptopsData.map((l) =>
-                        <div className="col-xs-12" key={l.id}>
+                        <div className="col-xs-12" key={l.l_id}>
                             <div className="Laptops d-flex overflow-x-hidden">
                                 <img src={l.l_img} alt={l.l_img} className="img-fluid" />
                                 <div className="d-flex flex-column">

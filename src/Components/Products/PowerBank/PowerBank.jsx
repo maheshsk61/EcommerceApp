@@ -13,7 +13,7 @@ const PowerBank = () => {
             <div className="row">
                 {
                     powerBanksData.map((p) =>
-                        <div className="col-xs-12" key={p.id}>
+                        <div className="col-xs-12" key={p.p_id}>
                             <div className="PowerBanks d-flex overflow-x-hidden">
                                 <img src={p.p_img} alt={p.p_img} className="img-fluid" />
                                 <div className="d-flex flex-column">

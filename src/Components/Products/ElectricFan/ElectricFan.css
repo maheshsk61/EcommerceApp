@@ -26,8 +26,10 @@
     }
 
     .ElectricFans img {
-        min-width: auto;
-        max-width: auto;
+        min-width: 350px;
+        max-width: 350px;
+        min-height: auto;
+        max-height: auto;
     }
 
     .ElectricFans .Name,

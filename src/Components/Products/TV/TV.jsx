@@ -13,7 +13,7 @@ const Tv = () => {
             <div className="row">
                 {
                     tvData.map((t) =>
-                        <div className="col-xs-12" key={t.id}>
+                        <div className="col-xs-12" key={t.t_id}>
                             <div className="Tv d-flex overflow-x-hidden">
                                 <img src={t.t_img} alt={t.t_img} className="img-fluid" />
                                 <div className="d-flex flex-column">

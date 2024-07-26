@@ -4,13 +4,12 @@
 }
 
 .Products img {
-    min-width: auto;
-    max-width: auto;
-    min-height: 250px;
-    max-height: 250px;
+    min-width: 400px;
+    max-width: 400px;
+    min-height: 300px;
+    max-height: 300px;
     object-fit: cover;
     border-radius: 10px;
-
 }
 
 .Products img:hover {
@@ -26,8 +25,8 @@
     }
 
     .Products img {
-        min-width: auto;
-        max-width: auto;
+        min-width: 350px;
+        max-width: 350px;
         min-height: auto;
         max-height: auto;
         object-fit: cover;

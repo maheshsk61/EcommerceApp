@@ -13,7 +13,7 @@ const Watch = () => {
             <div className="row">
                 {
                     watchesData.map((w) =>
-                        <div className="col-xs-12" key={w.id}>
+                        <div className="col-xs-12" key={w.w_id}>
                             <div className="Watches d-flex overflow-x-hidden">
                                 <img src={w.w_img} alt={w.w_img} className="img-fluid" />
                                 <div className="d-flex flex-column">
