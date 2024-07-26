@@ -1,5 +1,10 @@
-.Navbar div{
-    color: black;
-    font-weight: bold;
+.Navbar div {
+  color: black;
+  font-weight: bold;
 }
-
+.Navbar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
