@@ -16,7 +16,7 @@ function CartView() {
                         <h1>Your cart is Empty</h1>
                         <Link to='/'>
                             {
-                                <button className='border-0 bg-primary rounded-2 px-5 py-2 text-white fw-bold'><ShoppingCartCheckoutIcon />Shop Now</button>
+                                <button className='border-0 bg-dark rounded-2 px-5 py-2 text-white fw-bold'><ShoppingCartCheckoutIcon />Shop Now</button>
                             }
                         </Link>
                     </div> :

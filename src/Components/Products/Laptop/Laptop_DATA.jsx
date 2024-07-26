@@ -3,7 +3,7 @@ var id = mobilesData[mobilesData.length - 1].m_id
 export var laptopsData = [
     {
         l_id: ++id,
-        l_img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2GY7rNdtm2d8eYzjaN8gCc3MMvHlFgJsm3ZHPiHBW1g&s',
+        l_img: 'https://images.pexels.com/photos/1181462/pexels-photo-1181462.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
         l_name: 'Apple 2024 MacBook Air 13″ Laptop with M3 chip: 34.46 cm (13.6″) Liquid Retina Display, 8GB Unified Memory, 256GB SSD Storage, Backlit Keyboard, 1080p FaceTime HD Camera, Touch ID- Starlight',
         l_price: 104990,
         l_details: {
@@ -16,7 +16,7 @@ export var laptopsData = [
     },
     {
         l_id: ++id,
-        l_img: 'https://m.media-amazon.com/images/I/71czGb00k5L._SX679_.jpg',
+        l_img: 'https://images.pexels.com/photos/2047905/pexels-photo-2047905.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
         l_name: 'Acer Aspire Lite AMD Ryzen 5 5500U Premium Thin and Light Laptop (16 GB RAM/512 GB SSD/Windows 11 Home) AL15-41, 39.62 cm (15.6") Full HD Display, Metal Body, Steel Gray, 1.59 KG',
         l_price: 35990,
         l_details: {
@@ -29,7 +29,7 @@ export var laptopsData = [
     },
     {
         l_id: ++id,
-        l_img: 'https://m.media-amazon.com/images/I/71lYhcc++AL._SX679_.jpg',
+        l_img: 'https://images.pexels.com/photos/1181269/pexels-photo-1181269.jpeg?auto=compress&cs=tinysrgb&w=600',
         l_name: 'ASUS VivoBook 15 (2021), 15.6-inch (39.62 cm) HD, Dual Core Intel Celeron N4020, Thin and Light Laptop (4GB RAM/256GB SSD/Integrated Graphics/Windows 11 Home/Transparent Silver/1.8 Kg), X515MA-BR011W',
         l_price: 19990,
         l_details: {
@@ -42,7 +42,7 @@ export var laptopsData = [
     },
     {
         l_id: ++id,
-        l_img: 'https://m.media-amazon.com/images/I/31uLEZHhMDL._SX300_SY300_QL70_FMwebp_.jpg',
+        l_img: 'https://images.pexels.com/photos/205421/pexels-photo-205421.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
         l_name: 'Lenovo V15 Intel Celeron N4500 15.6" (39.62 cm) FHD (1920x1080) Antiglare 250 Nits Thin and Light Laptop (8GB RAM/256GB SSD/Windows 11 Home/Black/1Y Onsite/1.7 kg), 82QYA00MIN',
         l_price: 20480,
         l_details: {
@@ -55,7 +55,7 @@ export var laptopsData = [
     },
     {
         l_id: ++id,
-        l_img: 'https://m.media-amazon.com/images/I/61Pb4vDP8VL._SX679_.jpg',
+        l_img: 'https://images.pexels.com/photos/3776438/pexels-photo-3776438.jpeg?auto=compress&cs=tinysrgb&w=600',
         l_name: 'Dell Inspiron 7420 2in1 Laptop, Intel Core i7-1255U Processor/16GB/512GB/14.0" (35.56cm) FHD+ WVA Touch 250 nits, Active Pen/Win 11 + MSO' + '21, 15 Month McAfee/Backlit KB + FPR/Platinum Silver',
         l_price: 69990,
         l_details: {
@@ -68,7 +68,7 @@ export var laptopsData = [
     },
     {
         l_id: ++id,
-        l_img: 'https://m.media-amazon.com/images/I/41YLZ1m-8SL._SX300_SY300_QL70_FMwebp_.jpg',
+        l_img: 'https://images.pexels.com/photos/17706650/pexels-photo-17706650/free-photo-of-man-sitting-with-newspaper-over-laptop.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
         l_name: 'HP Laptop 15, 12th Gen i3-1215U, 15.6-inch (39.6 cm), FHD, Anti-Glare, 8GB DDR4, 512GB SSD, Intel UHD Graphics, Dual Speakers, (Win 11, MSO 2021, Silver, 1.69 kg), 15s-fy5006TU',
         l_price: 34990,
         l_details: {

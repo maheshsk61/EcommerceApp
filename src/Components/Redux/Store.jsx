@@ -6,8 +6,7 @@ const globalStore = configureStore({
     reducer: {
         counterStore: counterReducer,
         cartStore: cartReducer,
-        totalPriceStore:totalPriceReducer,
-       
+        totalPriceStore: totalPriceReducer,
     }
 })
 export default globalStore

@@ -1,8 +1,8 @@
 .Bluetooths img {
-    min-width: 500px;
-    max-width: 500px;
-    min-height: auto;
-    max-height: auto;
+    min-width: 600px;
+    max-width: 600px;
+    min-height: 400px;
+    max-height: 400px;
     object-fit: cover;
 }
 
@@ -19,15 +19,17 @@
     text-align: justify;
 }
 
-@media only screen and (min-width:1px) and (max-width:576px) {
+@media only screen and (max-width:576px) {
     .Bluetooths {
         display: flex;
         flex-direction: column;
     }
 
     .Bluetooths img {
-        min-width: auto;
-        max-width: auto;
+        min-width: 350px;
+        max-width: 350px;
+        min-height: 200px;
+        max-height: 200px;
     }
 
     .Bluetooths .Name,

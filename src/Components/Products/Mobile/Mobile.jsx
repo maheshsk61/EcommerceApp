@@ -7,6 +7,7 @@ import { addPrice } from "../../Redux/Slices/TotalPrice"
 import './Mobile.css'
 const Mobile = () => {
     const { dispatch } = Dispatch()
+    const [isClicked, setIsClicked] = useState()
     return (
         <div className="container-fluid">
             <div className="row">
@@ -28,7 +29,7 @@ const Mobile = () => {
                                         </ul>
                                     </div>
                                     <div className="AddToCart">
-                                        <button className="border-0 bg-success rounded-2 px-5 py-2 text-white fw-bold mb-2" onClick={() => { dispatch(increment()); dispatch(addProduct(m)); dispatch(addPrice(m.m_price)) }}>Add to cart</button>
+                                        <button className="border-0 rounded-2 px-5 py-2 text-white fw-bold mb-2" style={{ backgroundColor: isClicked === m.m_id ? 'green' : 'black' }} onClick={() => { dispatch(increment()); dispatch(addProduct(m)); dispatch(addPrice(m.m_price)); setIsClicked(m.m_id) }}>Add to cart</button>
                                     </div>
                                 </div>
                             </div>

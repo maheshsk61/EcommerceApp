@@ -2,7 +2,7 @@ var id = 0
 export var mobilesData = [
     {
         m_id: ++id,
-        m_img: 'https://m.media-amazon.com/images/I/71d7rfSl0wL._SL1500_.jpg',
+        m_img: 'https://images.pexels.com/photos/1294886/pexels-photo-1294886.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
         m_name: 'Apple iPhone 15 (256 GB) - Blue',
         m_price: 80590,
         m_details: {
@@ -15,7 +15,7 @@ export var mobilesData = [
     },
     {
         m_id: ++id,
-        m_img: 'https://m.media-amazon.com/images/I/81zU65mJmJL._SL1500_.jpg',
+        m_img: 'https://images.pexels.com/photos/9422880/pexels-photo-9422880.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
         m_name: 'Xiaomi 14 Ultra (White, 16GB RAM, 512GB Storage) | 50 MP Leica Quad Camera | 2K 120 Hz LTPO AMOLED | Flagship Snapdragon 8 Gen 3 | 90 W Hypercharge',
         m_price: 99999,
         m_details: {
@@ -28,8 +28,8 @@ export var mobilesData = [
     },
     {
         m_id: ++id,
-        m_img: 'https://m.media-amazon.com/images/I/71H5JOOMacL._SL1500_.jpg',
-        m_name: 'HONOR X9b 5G (Midnight Black, 8GB + 256GB) | India'+'s First Ultra-Bounce Anti-Drop Curved AMOLED Display | 5800mAh Battery | 108MP Primary Camera | Without Charger',
+        m_img: 'https://images.pexels.com/photos/3756879/pexels-photo-3756879.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+        m_name: 'HONOR X9b 5G (Midnight Black, 8GB + 256GB) | India' + 's First Ultra-Bounce Anti-Drop Curved AMOLED Display | 5800mAh Battery | 108MP Primary Camera | Without Charger',
         m_price: 25999,
         m_details: {
             memory: '8 GB RAM | 256 GB ROM',
@@ -41,7 +41,7 @@ export var mobilesData = [
     },
     {
         m_id: ++id,
-        m_img: 'https://m.media-amazon.com/images/I/61g1pqSjAhL._SL1500_.jpg',
+        m_img: 'https://images.pexels.com/photos/9403824/pexels-photo-9403824.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
         m_name: 'Oneplus Nord CE4 (Dark Chrome, 8GB RAM, 256GB Storage)',
         m_price: 26999,
         m_details: {
@@ -67,7 +67,7 @@ export var mobilesData = [
     },
     {
         m_id: ++id,
-        m_img: 'https://m.media-amazon.com/images/I/71b7LNeWiaL._SL1500_.jpg',
+        m_img: 'https://images.pexels.com/photos/214487/pexels-photo-214487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
         m_name: 'Samsung Galaxy S24 Plus 5G AI Smartphone (Onyx Black, 12GB, 512GB Storage)',
         m_price: 109999,
         m_details: {

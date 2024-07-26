@@ -94,7 +94,7 @@ const App = createBrowserRouter(
     },
     ,
     {
-      path: '/PowerBanks',
+      path: '/Power Banks',
       element: (
         <>
           <Navbar />
@@ -112,7 +112,7 @@ const App = createBrowserRouter(
       )
     },
     {
-      path: '/WashingMachines',
+      path: '/Washing Machines',
       element: (
         <>
           <Navbar />
@@ -121,7 +121,7 @@ const App = createBrowserRouter(
       )
     },
     {
-      path: '/ElectricFans',
+      path: '/Electric Fans',
       element: (
         <>
           <Navbar />

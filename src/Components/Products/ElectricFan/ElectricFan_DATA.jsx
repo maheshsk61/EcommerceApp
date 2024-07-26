@@ -3,7 +3,7 @@ var id = washingMachinesData[washingMachinesData.length - 1].wm_id
 export var electricFansData = [
     {
         e_id: ++id,
-        e_img: 'https://m.media-amazon.com/images/I/816lZp-8R2L._SL1500_.jpg',
+        e_img: 'https://images.pexels.com/photos/8102631/pexels-photo-8102631.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
         e_name: 'Bajaj Pygmy Mini Fan 110mm | USB Charging Fan | Multi-Clip Function | Rechargeable Fan| Battery Fan| 4-Hr Back-up| Silent Operation| Longer Battery Life| Energy Efficient| Portable Fan| Blue Table Fan',
         e_price: 1199,
         e_details: {
@@ -16,7 +16,7 @@ export var electricFansData = [
     },
     {
         e_id: ++id,
-        e_img: 'https://m.media-amazon.com/images/I/51qpyHG-xSL._SL1500_.jpg',
+        e_img: 'https://images.pexels.com/photos/4030070/pexels-photo-4030070.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
         e_name: 'Crompton Energion Hyperjet 1200mm BLDC Ceiling Fan with Remote Control | High Air Delivery | Energy Saving | 2 Year Warranty | Brown',
         e_price: 2499,
         e_details: {
@@ -29,7 +29,7 @@ export var electricFansData = [
     },
     {
         e_id: ++id,
-        e_img: 'https://m.media-amazon.com/images/I/61Nn99Fd73L._SL1500_.jpg',
+        e_img: 'https://images.pexels.com/photos/4030028/pexels-photo-4030028.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
         e_name: 'ACTIVA ORNET High Speed 850 RPM 4 Blades (600MM) Anti DUST Coating Ceiling Fan 2 Year Warranty (Silver Blue)',
         e_price: 1139,
         e_details: {
@@ -42,7 +42,7 @@ export var electricFansData = [
     },
     {
         e_id: ++id,
-        e_img: 'https://m.media-amazon.com/images/I/61mhVkkWM-L._SL1500_.jpg',
+        e_img: 'https://images.pexels.com/photos/11018287/pexels-photo-11018287.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
         e_name: 'atomberg Renesa 1200mm BLDC Motor 5 Star Rated Sleek Ceiling Fans with Remote | Upto 65% Energy Saving | 2+1 Year Warranty (Midnight Black) | Winner of National Energy Conservation Awards (2022)',
         e_price: 3699,
         e_details: {
@@ -55,7 +55,7 @@ export var electricFansData = [
     },
     {
         e_id: ++id,
-        e_img: 'https://m.media-amazon.com/images/I/61LptiXd9ML._SL1500_.jpg',
+        e_img: 'https://media.istockphoto.com/id/459903291/photo/tibetan-terrier-and-fan.jpg?s=2048x2048&w=is&k=20&c=jr_FXivfa3atuNZUZSKgSeBc9zfB9KkqHWydRXg8zv8=',
         e_name: 'Orient Electric Stand-82 400 MM Oscillating Pedestal Fans | Stand Fan with Tilt Mechanism | High Air Delivery | Aesthetic Design with Telescopic Arrangement (Sky Blue)',
         e_price: 2349,
         e_details: {

@@ -6,7 +6,7 @@ import { RouterProvider } from 'react-router-dom';
 import { Provider } from 'react-redux'
 import globalStore from './Components/Redux/Store.jsx';
 createRoot(document.getElementById('root')).render(
-    <Provider store={globalStore}>
-      <RouterProvider router={App} />
-    </Provider>
+  <Provider store={globalStore}>
+    <RouterProvider router={App} />
+  </Provider>
 )

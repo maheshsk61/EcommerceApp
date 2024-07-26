@@ -77,7 +77,7 @@ const Register = () => {
                                 <div className='text-danger'>{errorPwd && errorPwd}{pwdRegex && pwdRegex}{matchPwd && matchPwd}</div>
                             </div>
                             <div className="Login text-center">
-                                <button type='submit' className='btn btn-primary shadow-none'>Register</button>
+                                <button type='submit' className='btn btn-dark shadow-none fw-bold'>Register</button>
                             </div>
                         </form>
                     </div>

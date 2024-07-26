@@ -60,12 +60,12 @@ function Login() {
                                 <div className='text-danger'>{errorPwd && errorPwd}{pwdRegex && pwdRegex}</div>
                             </div>
                             <div className="Login text-center">
-                                <button type='submit' className='btn btn-primary shadow-none'>Login</button>
+                                <button type='submit' className='btn btn-dark shadow-none fw-bold'>Login</button>
                             </div>
                         </form>
                         <h3 className='text-center'><u>Don't have an account?</u></h3>
                         <Link to='/Account/Register' className='text-decoration-none'>
-                                <h2 className='text-center text-primary'>Sign up</h2>
+                                <h2 className='text-center text-dark'>Sign up</h2>
                         </Link>
                     </div>
                 </div>

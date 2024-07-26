@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import { watchesData } from "./Watch_DATA"
 import Dispatch from "../../Redux/Dispatch"
 import { increment } from "../../Redux/Slices/Counter"
@@ -7,6 +7,7 @@ import { addPrice } from "../../Redux/Slices/TotalPrice"
 import './Watch.css'
 const Watch = () => {
     const { dispatch } = Dispatch()
+    const [isClicked, setIsClicked] = useState()
     return (
         <div className="container-fluid">
             <div className="row">
@@ -56,7 +57,7 @@ const Watch = () => {
                                         </ul>
                                     </div>
                                     <div className="AddToCart">
-                                        <button className="border-0 bg-success rounded-2 px-5 py-2 text-white fw-bold mb-2" onClick={() => { dispatch(increment()); dispatch(addProduct(w)); dispatch(addPrice(w.w_price)) }}>Add to cart</button>
+                                        <button className="border-0 rounded-2 px-5 py-2 text-white fw-bold mb-2" style={{ backgroundColor: isClicked === w.w_id ? 'green' : 'black' }} onClick={() => { dispatch(increment()); dispatch(addProduct(w)); dispatch(addPrice(w.w_price)); setIsClicked(w.w_id) }}>Add to cart</button>
                                     </div>
                                 </div>
                             </div>

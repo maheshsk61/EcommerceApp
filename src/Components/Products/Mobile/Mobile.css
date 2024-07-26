@@ -1,6 +1,6 @@
 .Mobiles img {
-    min-width: 500px;
-    max-width: 500px;
+    min-width: 600px;
+    max-width: 600px;
     min-height: auto;
     max-height: auto;
     object-fit: cover;
@@ -26,8 +26,10 @@
     }
 
     .Mobiles img {
-        min-width: auto;
-        max-width: auto;
+        min-width: 350px;
+        max-width: 350px;
+        min-height: auto;
+        max-height: auto;
     }
 
     .Mobiles .Name,

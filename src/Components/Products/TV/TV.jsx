@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import { tvData } from "./TV_DATA"
 import Dispatch from "../../Redux/Dispatch"
 import { increment } from "../../Redux/Slices/Counter"
@@ -7,6 +7,7 @@ import { addPrice } from "../../Redux/Slices/TotalPrice"
 import './TV.css'
 const Tv = () => {
     const { dispatch } = Dispatch()
+    const [isClicked, setIsClicked] = useState()
     return (
         <div className="container-fluid">
             <div className="row">
@@ -30,7 +31,7 @@ const Tv = () => {
                                         </ul>
                                     </div>
                                     <div className="AddToCart">
-                                        <button className="border-0 bg-success rounded-2 px-5 py-2 text-white fw-bold mb-2" onClick={() => { dispatch(increment()); dispatch(addProduct(t)); dispatch(addPrice(t.t_price)) }}>Add to cart</button>
+                                        <button className="border-0 rounded-2 px-5 py-2 text-white fw-bold mb-2" style={{ backgroundColor: isClicked === t.t_id ? 'green' : 'black' }} onClick={() => { dispatch(increment()); dispatch(addProduct(t)); dispatch(addPrice(t.t_price)); setIsClicked(t.t_id) }}>Add to cart</button>
                                     </div>
                                 </div>
                             </div>
